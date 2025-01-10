@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Job Application Form</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <u><h1>Job Application Form</h1></u>
+        <br>
+        <p class="job-description">
+            Please fill in the details below to apply for the job position. We are looking for skilled and dedicated professionals to join our team!
+        </p>
+        <form id="job-application-form">
+            <div class="form-section">
+                <label for="full-name">Full Name</label>
+                <input type="text" id="full-name" name="full-name" placeholder="Enter your full name" required>
+                <label for="email">Email</label>
+                <input type="email" id="email" name="email" placeholder="Enter your email address" required>
+                <label for="phone">Phone Number</label>
+                <input type="text" id="phone" name="phone" placeholder="Enter your phone number" required>
+                <label for="address">Address</label>
+                <textarea id="address" name="address" rows="4" placeholder="Enter your address" required></textarea>
+            </div>
+            <div class="form-section">
+                <label for="position">Position Applied For</label>
+                <input type="text" id="position" name="position" placeholder="Enter the position" required>
+                <label for="experience">Years of Experience</label>
+                <input type="number" id="experience" name="experience" min="0" placeholder="Enter years of experience" required>
+                <label for="skills">Key Skills</label>
+                <input type="text" id="skills" name="skills" placeholder="Enter your key skills (comma separated)" required>
+            </div>
+            <div class="form-section">
+                <label for="resume">Upload Resume</label>
+                <input type="file" id="resume" name="resume" accept=".pdf,.doc,.docx,.txt" required>
+                <label for="cover-letter">Cover Letter</label>
+                <textarea id="cover-letter" name="cover-letter" rows="6" placeholder="Write your cover letter" required></textarea>
+            </div>
+            <div class="form-section">
+                <label for="linkedin">LinkedIn Profile</label>
+                <input type="url" id="linkedin" name="linkedin" placeholder="Enter your LinkedIn profile URL" required>
+                <label for="portfolio">Portfolio URL (optional)</label>
+                <input type="url" id="portfolio" name="portfolio" placeholder="Enter portfolio URL (optional)">
+            </div>
+            <button type="submit" class="submit-btn">Submit Application</button>
+        </form>
+        <div id="confirmation" class="confirmation-message" style="display: none;">
+            <h3>Application Submitted Successfully!</h3>
+            <p>Thank you for your application. We will review it and get back to you soon.</p>
+        </div>
+    </div>
+    <script src="app.js"></script>
+</body>
+</html>

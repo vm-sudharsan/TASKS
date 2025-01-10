@@ -1,0 +1,113 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body 
+
+{
+    font-family: 'Arial', sans-serif;
+    background-color: #f5f5f5;
+    color: #333;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    padding: 20px;
+}
+
+.container 
+{
+    width: 100%;
+    max-width: 800px;
+    background-color: white;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 6px 20px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+h1 
+{
+    font-size: 2.5rem;
+    color: #2e3b47;
+    margin-bottom: 10px;
+}
+
+.job-description 
+{
+    font-size: 1rem;
+    color: #777;
+    margin-bottom: 20px;
+}
+
+.form-section 
+{
+    margin-bottom: 20px;
+    text-align: left;
+}
+
+label 
+{
+    font-size: 16px;
+    color: #2e3b47;
+    display: block;
+    margin-bottom: 8px;
+}
+
+input, textarea 
+{
+    width: 100%;
+    padding: 12px;
+    font-size: 14px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    transition: all 0.3s ease;
+}
+
+input:focus, textarea:focus 
+{
+    border-color: #f8a439;
+    outline: none;
+}
+
+textarea 
+{
+    resize: vertical;
+}
+
+button 
+{
+    width: 100%;
+    padding: 14px;
+    font-size: 16px;
+    background-color: #f8a439;
+    color: white;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button:hover 
+{
+    background-color: #d3742d;
+}
+
+.confirmation-message 
+{
+    text-align: center;
+    background-color: #e0f7e9;
+    padding: 20px;
+    border-radius: 10px;
+    margin-top: 20px;
+    box-shadow: 0 6px 20px rgba(0, 0, 0, 0.1);
+}
+
+.confirmation-message h3 
+{
+    color: #2e3b47;
+
+}
