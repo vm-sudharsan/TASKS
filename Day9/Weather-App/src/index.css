@@ -1,0 +1,43 @@
+.weather-app {
+  font-family: Arial, sans-serif;
+  padding: 20px;
+  max-width: 600px;
+  margin: auto;
+  border-radius: 8px;
+}
+
+.weather-app.light {
+  background-color: #f9f9f9;
+  color: #333;
+}
+
+.weather-app.dark {
+  background-color: #333;
+  color: #f9f9f9;
+}
+
+.search-bar {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+
+.current-weather,
+.forecast-weather {
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  padding: 10px;
+  margin-top: 10px;
+}
+
+.forecast-list {
+  display: flex;
+  gap: 10px;
+}
+
+.forecast-item {
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  padding: 5px;
+  text-align: center;
+}
